@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+// Theme App
+@import "styles/partials/reset";
+@import "styles/partials/variables";
+@import "styles/partials/mixins";
+@import "styles/partials/animations";
+@import "styles/partials/commons";
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+// Theme App - Library
+
+
+// Theme App - Components
+@import "styles/components/listing-cards";
+@import "styles/components/cardForms";
+
+// Theme App - Pages
